@@ -1,0 +1,31 @@
+#rubrik{
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    font-family: serif;
+    background-color: #32b06f;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 20px;
+}
+.red-box{
+    border: 2px #32b06f solid;
+    border-radius: 5px; 
+    background-color: rgb(213, 109, 11);
+    margin: 2%;
+}
+.black-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.green-text{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+.black-box{
+    background-color: black;
+    border: 3px solid black;
+    
+}
