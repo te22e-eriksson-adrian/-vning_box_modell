@@ -15,6 +15,9 @@
     border-radius: 5px; 
     background-color: rgb(213, 109, 11);
     margin: 2%;
+
+    display: flex;
+    flex-direction: row;
 }
 .black-text{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,9 +26,27 @@
 .green-text{
     font-family: 'Courier New', Courier, monospace;
     color: green;
+    font-weight: bold;
+}
+.green-box{
+    background-color: #32b06f;
+    border: 3px solid black;
+    padding: 1%;
+    margin-left: 32%;
+    padding-right: 15%;
 }
 .black-box{
     background-color: black;
-    border: 3px solid black;
-    
+    border: 3px solid #32b06f;
+    padding: 2%;
+    margin-right: 32%;
+    padding-left: 15%;
+}
+.bakgrund{
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid black;
+    background-image: url("./showcase.jpg");
 }
